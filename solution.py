@@ -5,4 +5,4 @@ import numpy as np
 chat_id = 123456 # Ваш chat ID, не меняйте название переменной
 
 def solution(x: np.array) -> float:
-    return sum(x) / (16 * len(x))
+    return sum(x) / len(x)
