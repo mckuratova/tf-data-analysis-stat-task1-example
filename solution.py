@@ -16,5 +16,5 @@ def solution(x: np.array) -> float:
     summa = 0
     for i in ni:
         summa += i * ni[i]
-    res = summa / n
+    res = summa / (t * n)
     return res
